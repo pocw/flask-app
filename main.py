@@ -1,7 +1,6 @@
 from flask import Flask, jsonify
 from flask import Flask, Response
 import time
-import os
 
 app = Flask(__name__)
 
