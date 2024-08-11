@@ -3,7 +3,7 @@ from flask import Flask, Response
 import time
 def create_app():
     app = Flask(__name__)
-    @app.route('/')
+    @app.route('/xxav')
     def stream():
         def generate():
             while True:
